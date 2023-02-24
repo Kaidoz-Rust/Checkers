@@ -19,6 +19,6 @@ BlackBotLevel - unsigned int. If "IsBlackBot" is set true then the depth of calc
 BotScoringType - "NumberOnly" (the bot takes into account only the number of checkers)  or "NumberAndPotential" (the bot also takes into account the positions of checkers).  
 BotDelayMS - unsigned int. Minimum delay per bot move.  
 NoRandom - true/false. Whether the bot will be deterministic.  
-Optimization - "O0"/"O1"/"O2". They provide significant optimization in terms of the time of the bot's progress. O0 disables optimization, O1 allows you to cut off the worst branches of the search, O2 is much faster, but it can affect the choice of the move.  
+Optimization - "O0"/"O1"/"O2". They provide significant optimization in terms of the time of the bot's progress. O0 disables optimization (max level 7), O1 allows you to cut off the worst branches of the search (max level 12), O2(temporarily unavailable) is much faster, but it can affect the choice of the move.  
 ### Game
 MaxNumTurns - unsigned int. Maximum number of turns before draw.  
